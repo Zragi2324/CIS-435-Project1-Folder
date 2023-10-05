@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+body{
+    width: 800px;
+    border: solid blue;
+    box-shadow:15px 15px grey;
+    background-color: #ffffff;
+    background-image: url(../img/petTheme4.jpg);
+    margin: auto;
+    text-align:center;
+}
+
+header{
+    border-bottom-color: blue;
+    background-image:linear-gradient(45deg,#ffffff,green 75%,#000000);
+
+}
+
+footer{
+    border-top-color: blue;
+    background-image:linear-gradient(45deg, #000000, green 75%, #ffffff);
+}
+
+
+.navBar{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size:20px;
+}
+
+.CommonPets h2::first-letter{
+    font-size:60px;
+}
+
+.imageCute img{
+   
+    float:left;
+    width: 250px;
+    height: 250px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+.CommonPets h2{
+
+    text-indent:60px;
+}
+
+.caringForPet h2{
+    text-indent: 25px;
+}
+
+.caringForPet p{
+    margin: 5px;
+}
+
+a:link, a:visited {
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover{
+
+    color: green;
+}
+
+li{
+    margin: 25px;
+    list-style-position: inside;
+}
+
+.CommonPets li{
+    float:left;
+    text-align:center;
+    margin-left: 10px;
+    
+}
+
+
+.caringForPet{
+    position: relative;
+    left: 10;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
